@@ -1,0 +1,12 @@
+
+!URXVT Settings
+urxvt*depth:		32
+urxvt*foreground:	green
+urxvt*background:	rgba:0000/0000/0000/dddd
+urxvt*cursorUnderline:	true
+urxvt*cursorBlink:	true
+urxvt*blurRadius:	6x6
+!urxvt*font:		-xos4-terminus-medium-r-normal--7-170-72-72-c-80-iso10646-1
+urxvt*font:		xft:ProFontIIx Nerd Font Mono:size=9
+!urxvt*font:		xft:ProFontIIx Nerd Font Mono:size=18
+

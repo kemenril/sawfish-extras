@@ -1,0 +1,16 @@
+#!/bin/sh
+
+#Activate underscan so that the image doesn't run over the edge of the
+#television.
+(xrandr --output HDMI-A-0 --set underscan on;xrandr --output HDMI-A-0 --set "underscan hborder" 60 --set "underscan vborder" 30) &
+
+#Screensaver
+xset s off &
+xscreensaver -no-splash &
+~/.sawfish/lemonbar.sh &
+#bbpager -geometry +0-650
+
+#Slow down the USB Space Navigator
+xinput set-prop 12 426 1.0
+
+

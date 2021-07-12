@@ -1,0 +1,13 @@
+
+;; Load defaults
+(require 'sawfish-defaults)
+
+;;Increase the number of default workspaces available
+(set-number-of-workspaces 4)
+
+;;Run the autostart script
+(system "~/.sawfish/autostart &")
+
+
+
+
